@@ -1,0 +1,35 @@
+{
+  "manifestVersion": 1,
+  "id": "pr-reviewer-lottery",
+  "publisher": "etienne-gautier",
+  "version": "1.0.1",
+  "name": "PR Reviewer Lottery",
+  "description": "An Azure DevOps extension to assign Pull Requests Automatically to a user from a group.",
+  "public": true,
+  "categories": ["Azure Repos"],
+  "icons": {
+    "default": "static/pr-icon.png"
+  },
+  "tags": ["PR", "Pull Request", "reviewer", "agile", "productivity"],
+  "content": {
+    "details": {
+        "path": "overview.md"
+    }
+},
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "scopes": ["vso.code_full", "vso.graph"],
+  "files": [
+    {
+      "path": "static",
+      "addressable": true
+    },
+    {
+      "path": "dist",
+      "addressable": true
+    }
+  ]
+}
