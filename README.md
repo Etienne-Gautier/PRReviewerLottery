@@ -1,8 +1,5 @@
 # PRReviewerLottery
 An Azure DevOps extension to simplify the pull-request review process
-
-# Getting Started
-
 # Build and Test
 To get started, first run`npm install`
 
